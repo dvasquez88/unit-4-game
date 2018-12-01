@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Crystal Collector</title>
+
+    <!--css-->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    
+    <!--jquery cdn-->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+
+    <!--boostrap cdn-->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+
+</head>
+
+<body>
+
+<div class="jumbotron">
+    <h1 class="text-center">Crystal Collector</h1>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-5">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3 class="panel-title">How to play the game</h3>
+                </div>
+                
+                <div class="panel-body">
+                    <p>
+                        A random number will be generated when the game starts.
+                    </p>
+
+                    <p>
+                        Clicking one of the four crystals below will add a specific number of points to your score.
+                    </p>
+
+                    <p>
+                        In order to win, you must match your score to the randomly generated number, and you will lose if your points go over the randmly generated number.
+                    </p>
+
+                    <p>
+                        The number of points each crystal adds will be hidden until you click on it.
+                    </p>
+
+                    <p>
+                        Every time the game restarts, the amount of points each crystal adds will change.
+                    </p>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="col-md-1">
+</div>
+<div class="col-md-6">
+    <div class="row">
+            <div class="col-md-4 target-number">
+             </div>
+             <div class="col-md-1">
+            </div>
+            <div class="col-md-4 win-lose-counter">
+            </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12 crystal-images">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-4 total-score">
+            <p>
+                Your score is:
+            </p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-4 score-number">
+        </div>
+    </div>
+</div>
+            
+<!--link to javascript file-->
+<script type="text/javascript" src="assets/javascript/game.js"></script>
+
+            
+</body>
+
+</html>
+
+
+
